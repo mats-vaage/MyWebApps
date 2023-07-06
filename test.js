@@ -6,6 +6,6 @@ console.log(count)
 function save() {
     
     count +=1
-    saveEl.textContent += count
+    saveEl.textContent = count
    
 }

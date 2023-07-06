@@ -1,9 +1,11 @@
 
 let saveEl = document.getElementById("thisButton")
+let count = 0
 console.log(count)
 
 function save() {
     
-    saveEl.textContent += 1
+    count +=1
+    saveEl.textContent += count
    
 }
